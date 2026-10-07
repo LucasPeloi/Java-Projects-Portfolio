@@ -25,7 +25,7 @@ public class Agenda {
     }
 
     public void listarContatos(){
-        if (agenda.size() > 0) {
+        if (agenda.isEmpty()) {
             System.out.println("ID        NOME        TELEFONE        EMAIL");
             for (Contato contato : agenda) {
                 System.out.println(agenda.indexOf(contato) + " | " + contato.toString());
@@ -40,7 +40,7 @@ public class Agenda {
 
         for (Contato contato : agenda){
             if (contato.getNome().toUpperCase(Locale.ROOT).contains(nome.toUpperCase())){
-                System.out.println(agenda.indexOf(contato) + " | " + contato.toString());
+                System.out.println(agenda.indexOf(contato) + " | " + contato);
                 encontrado = true;
             }
         }

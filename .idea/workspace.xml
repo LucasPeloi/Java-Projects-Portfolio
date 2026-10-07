@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53dfa036-128c-4b42-b80a-b4db343803c2" name="Changes" comment="Correções">
-      <change afterPath="$PROJECT_DIR$/Agenda/src/main/java/peloi/lucas/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agenda/src/main/java/peloi/lucas/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Agenda/src/main/java/peloi/lucas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Agenda/src/main/java/peloi/lucas/Main.java" afterDir="false" />
+    <list default="true" id="53dfa036-128c-4b42-b80a-b4db343803c2" name="Changes" comment="Desenvolvimento de agenda">
+      <change beforePath="$PROJECT_DIR$/Agenda/src/main/java/peloi/lucas/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Agenda/src/main/java/peloi/lucas/Agenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,9 @@
     &quot;accountId&quot;: &quot;5ea56c6a-baf4-458f-93c8-bbaf253f4988&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791397236300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Desenvolvimento de agenda">
+      <option name="closed" value="true" />
+      <created>1791403247515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791403247515</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Organizando estrutura e iniciando projeto agenda" />
     <MESSAGE value="Correções" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correções" />
+    <MESSAGE value="Desenvolvimento de agenda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvimento de agenda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
