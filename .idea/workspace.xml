@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53dfa036-128c-4b42-b80a-b4db343803c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/untitled/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/untitled/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/untitled/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/untitled/src/main/java/peloi/lucas/Main.java" beforeDir="false" />
+    <list default="true" id="53dfa036-128c-4b42-b80a-b4db343803c2" name="Changes" comment="Organizando estrutura e iniciando projeto agenda">
+      <change beforePath="$PROJECT_DIR$/Agenda/src/main/java/peloi/lucas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Agenda/src/main/java/peloi/lucas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/peloi/lucas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/peloi/lucas/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,9 +93,30 @@
       <option name="presentableId" value="Default" />
       <updated>1791383632016</updated>
     </task>
+    <task id="LOCAL-00001" summary="Organizando estrutura e iniciando projeto agenda">
+      <option name="closed" value="true" />
+      <created>1791397009173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791397009173</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Organizando estrutura e iniciando projeto agenda">
+      <option name="closed" value="true" />
+      <created>1791397177412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791397177412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Organizando estrutura e iniciando projeto agenda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizando estrutura e iniciando projeto agenda" />
   </component>
 </project>

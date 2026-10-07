@@ -3,7 +3,7 @@ package peloi.lucas;
 import java.util.Scanner;
 
 public class Main {
-    static void main(String[] args){
+    static void main(){
         double numero1;
         double numero2;
         char operacao;
