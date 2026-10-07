@@ -25,7 +25,7 @@ public class Agenda {
     }
 
     public void listarContatos(){
-        if (agenda.isEmpty()) {
+        if (!agenda.isEmpty()) {
             System.out.println("ID        NOME        TELEFONE        EMAIL");
             for (Contato contato : agenda) {
                 System.out.println(agenda.indexOf(contato) + " | " + contato.toString());
