@@ -1,0 +1,232 @@
+Index: ../../README.md
+===================================================================
+diff --git a/../../README.md b/../../README.md
+deleted file mode 100644
+--- a/../../README.md	(revision 6af5fdd3f5ff4ffd0a5644099b5184d4859cde38)
++++ /dev/null	(revision 6af5fdd3f5ff4ffd0a5644099b5184d4859cde38)
+@@ -1,38 +0,0 @@
+-# ☕ Java Software Projects
+-
+-Bem-vindo ao meu repositório de projetos Java!
+-
+-Aqui você encontrará os projetos que desenvolvi durante minha graduação em Engenharia de Software e meus estudos independentes. O objetivo deste repositório é registrar minha evolução como desenvolvedor e colocar em prática os principais conceitos da linguagem Java.
+-
+-## 📚 Tecnologias
+-
+-- Java
+-- Programação Orientada a Objetos (POO)
+-- Estruturas de Dados
+-- Collections Framework
+-- Tratamento de Exceções
+-- Manipulação de Arquivos
+-- JDBC
+-- APIs
+-- Git e GitHub
+-
+-## 📂 Estrutura
+-
+-Cada pasta representa um projeto independente e contém seu próprio código-fonte e documentação quando necessário.
+-
+-Exemplo:
+-
+-📁 Agenda
+-
+-📁 Calculadora
+-
+-## 🎯 Objetivo
+-
+-- Praticar os conceitos da linguagem Java;
+-- Desenvolver aplicações cada vez mais completas;
+-- Aplicar boas práticas de programação;
+-- Construir um portfólio para minha carreira como desenvolvedor.
+-
+-## 🚀 Em constante evolução
+-
+-Novos projetos serão adicionados conforme avanço nos estudos e desenvolvo novas habilidades no ecossistema Java.
+Index: ../../.gitignore
+===================================================================
+diff --git a/../../.gitignore b/../../.gitignore
+deleted file mode 100644
+--- a/../../.gitignore	(revision 6af5fdd3f5ff4ffd0a5644099b5184d4859cde38)
++++ /dev/null	(revision 6af5fdd3f5ff4ffd0a5644099b5184d4859cde38)
+@@ -1,39 +0,0 @@
+-target/
+-!.mvn/wrapper/maven-wrapper.jar
+-!**/src/main/**/target/
+-!**/src/test/**/target/
+-.kotlin
+-
+-### IntelliJ IDEA ###
+-.idea/modules.xml
+-.idea/jarRepositories.xml
+-.idea/compiler.xml
+-.idea/libraries/
+-*.iws
+-*.iml
+-*.ipr
+-
+-### Eclipse ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-build/
+-!**/src/main/**/build/
+-!**/src/test/**/build/
+-
+-### VS Code ###
+-.vscode/
+-
+-### Mac OS ###
+-.DS_Store
+\ No newline at end of file
+Index: ../../SistemaBancario/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../SistemaBancario/.gitignore b/../../SistemaBancario/.gitignore
+new file mode 100644
+--- /dev/null	(date 1791462741440)
++++ b/../../SistemaBancario/.gitignore	(date 1791462741440)
+@@ -0,0 +1,39 @@
++target/
++!.mvn/wrapper/maven-wrapper.jar
++!**/src/main/**/target/
++!**/src/test/**/target/
++.kotlin
++
++### IntelliJ IDEA ###
++.idea/modules.xml
++.idea/jarRepositories.xml
++.idea/compiler.xml
++.idea/libraries/
++*.iws
++*.iml
++*.ipr
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++build/
++!**/src/main/**/build/
++!**/src/test/**/build/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: ../../SistemaBancario/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../SistemaBancario/pom.xml b/../../SistemaBancario/pom.xml
+new file mode 100644
+--- /dev/null	(date 1791462741462)
++++ b/../../SistemaBancario/pom.xml	(date 1791462741462)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>peloi.lucas</groupId>
++    <artifactId>Calculadora</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++    <properties>
++        <maven.compiler.source>26</maven.compiler.source>
++        <maven.compiler.target>26</maven.compiler.target>
++        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++    </properties>
++
++</project>
+\ No newline at end of file
+Index: ../../SistemaBancario/src/main/java/peloi/lucas/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../SistemaBancario/src/main/java/peloi/lucas/Main.java b/../../SistemaBancario/src/main/java/peloi/lucas/Main.java
+new file mode 100644
+--- /dev/null	(date 1791462741493)
++++ b/../../SistemaBancario/src/main/java/peloi/lucas/Main.java	(date 1791462741493)
+@@ -0,0 +1,52 @@
++package peloi.lucas;
++
++import java.util.Scanner;
++
++public class Main {
++    static void main(){
++        double numero1;
++        double numero2;
++        char operacao;
++        char continuar;
++        Scanner scanner = new Scanner(System.in);
++
++        do {
++            System.out.println("Digite o primeiro número: ");
++            numero1 = scanner.nextDouble();
++
++            System.out.println("Digite a operação (+, -, *, /): ");
++            operacao = scanner.next().charAt(0);
++
++            System.out.println("Digite o segundo número: ");
++            numero2 = scanner.nextDouble();
++
++            switch(operacao){
++                case '+':
++                    System.out.println("Resultado: " + (numero1 + numero2));
++                    break;
++                case '-':
++                    System.out.println("Resultado: " + (numero1 - numero2));
++                    break;
++                case '*':
++                    System.out.println("Resultado: " + (numero1 * numero2));
++                    break;
++                case '/':
++                    if (numero2 == 0) {
++                        System.out.println("Erro: divisão por zero!");
++                    } else {
++                        System.out.println("Resultado: " + (numero1 / numero2));
++                    }
++                    break;
++                default:
++                    System.out.println("Operação inválida!");
++            }
++
++            System.out.print("Deseja fazer outro cálculo? (s/n): ");
++            continuar = scanner.next().charAt(0);
++
++        }while((continuar == 's') || (continuar == 'S'));
++
++        System.out.println("Sistema Finalizado!");
++        scanner.close();
++    }
++}
