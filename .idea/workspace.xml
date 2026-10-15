@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43dec269-db6e-4e46-82ec-a38eb2bda6ef" name="Changes" comment="estrutura inicial do projeto" />
+    <list default="true" id="43dec269-db6e-4e46-82ec-a38eb2bda6ef" name="Changes" comment="estrutura inicial do projeto">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaBancario/src/main/java/peloi/lucas/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaBancario/src/main/java/peloi/lucas/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaBancario/untitled/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaBancario/untitled/src/main/java/peloi/lucas/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,10 +61,11 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/supor/OneDrive/Área de Trabalho/Lucas/Java-Projects-Portfolio/SistemaBancario/untitled/src/main/java/peloi/lucas/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"

@@ -14,9 +14,7 @@ public abstract class Conta {
         this.saldo = this.saldo.add(valor);
     }
     public void sacar(BigDecimal valor){
-        if(this.saldo.){
 
-        }
     }
     public void transferir(Conta destino, BigDecimal valor){}
 
