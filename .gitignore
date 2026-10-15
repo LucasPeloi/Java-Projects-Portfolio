@@ -13,6 +13,13 @@ target/
 *.iml
 *.ipr
 
+.idea/
+production/
+target/
+*.class
+*.iml
+out/
+
 ### Eclipse ###
 .apt_generated
 .classpath
