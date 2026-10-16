@@ -1,4 +1,4 @@
-package peloi.lucas;
+package peloi.lucas.model;
 
 public class Main {
     static void main(String[] args) {

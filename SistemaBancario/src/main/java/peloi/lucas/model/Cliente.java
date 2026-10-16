@@ -1,4 +1,4 @@
-package peloi.lucas;
+package peloi.lucas.model;
 
 import java.time.LocalDate;
 
