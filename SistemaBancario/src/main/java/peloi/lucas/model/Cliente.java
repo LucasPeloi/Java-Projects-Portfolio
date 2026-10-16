@@ -3,7 +3,7 @@ package peloi.lucas.model;
 import java.time.LocalDate;
 
 public class Cliente {
-    private String cpf;
+    private final String cpf;
     private String nome;
     LocalDate dataNascimento;
 
