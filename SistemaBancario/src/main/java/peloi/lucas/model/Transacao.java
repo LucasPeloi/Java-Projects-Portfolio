@@ -16,9 +16,7 @@ public class Transacao {
         this.descricao = descricao;
     }
 
-    public LocalDateTime getDataHora() {
-        return dataHora;
-    }
+    public LocalDateTime getDataHora() { return dataHora; }
 
     public TipoTransacao getTipo() {
         return tipo;
@@ -30,5 +28,10 @@ public class Transacao {
 
     public String getDescricao() {
         return descricao;
+    }
+
+    @Override
+    public String toString() {
+        return dataHora + " | " + tipo + " | " + valor + " | " + descricao;
     }
 }
