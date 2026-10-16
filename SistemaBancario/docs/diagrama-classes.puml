@@ -1,0 +1,60 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+enum TipoTransacao {
+  DEPOSITO
+  SAQUE
+  TRANSFERENCIA_ENVIADA
+  TRANSFERENCIA_RECEBIDA
+  TARIFA
+  RENDIMENTO
+}
+
+interface Rentavel {
+  +aplicarRendimento(): void
+}
+
+class Cliente {
+  -cpf: String
+  -nome: String
+  -dataNascimento: LocalDate
+}
+
+class Transacao {
+  -dataHora: LocalDateTime
+  -tipo: TipoTransacao
+  -valor: BigDecimal
+  -descricao: String
+}
+
+abstract class Conta {
+  -numero: String
+  -titular: Cliente
+  -saldo: BigDecimal
+  -transacoes: List<Transacao>
+  +depositar(valor: BigDecimal): void
+  +sacar(valor: BigDecimal): void
+  +transferir(destino: Conta, valor: BigDecimal): void
+  +getExtrato(): List<Transacao>
+  +{abstract} getSaldoDisponivel(): BigDecimal
+}
+
+class ContaCorrente {
+  -limiteChequeEspecial: BigDecimal
+  +getSaldoDisponivel(): BigDecimal
+  +sacar(valor: BigDecimal): void
+}
+
+class ContaPoupanca {
+  -taxaRendimento: BigDecimal
+  +getSaldoDisponivel(): BigDecimal
+  +aplicarRendimento(): void
+}
+
+Conta <|-- ContaCorrente
+Conta <|-- ContaPoupanca
+Rentavel <|.. ContaPoupanca
+Conta "*" --> "1" Cliente : titular
+Conta *-- "0..*" Transacao
+Transacao --> TipoTransacao
+@enduml
