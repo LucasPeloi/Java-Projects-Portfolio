@@ -10,3 +10,4 @@
 7. **Template Method:** `Conta` define o fluxo comum; as filhas variam via `getSaldoDisponivel()`
    e, no caso da corrente, pela tarifa.
 8. **BigDecimal** para dinheiro; `Transacao` é imutável.
+9. **Saque com tarifa:** o saldo disponível precisa cobrir valor + tarifa; caso contrário, o saque é rejeitado por completo 
