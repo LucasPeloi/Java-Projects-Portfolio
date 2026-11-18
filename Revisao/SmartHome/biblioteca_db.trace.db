@@ -1,0 +1,18 @@
+2026-11-18 11:09:20.804910-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-11-18 11:13:27.271196-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-11-18 11:14:25.260140-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-11-18 11:16:50.101770-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-11-18 11:17:00.193187-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-11-18 11:17:19.205638-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-11-18 11:19:42.229637-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DISPOSITIVO" not found (this database is empty); SQL statement:
+INSERT INTO Dispositivo(macAddress, consumoWatts, statusLigado, tipo_dispositivo) VALUES (?,?,?,?);  [42104-224]
+2026-11-18 11:20:41.866059-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DISPOSITIVO" not found (this database is empty); SQL statement:
+INSERT INTO Dispositivo(macAddress, consumoWatts, statusLigado, tipo_dispositivo) VALUES (?,?,?,?);  [42104-224]
